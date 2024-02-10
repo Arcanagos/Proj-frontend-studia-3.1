@@ -1,0 +1,44 @@
+#ProfileDiv {
+    display: flex;
+}
+#UserInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    top: 0;
+}
+
+#UserInfo label {
+    margin: 10px;
+    text-align: left;
+}
+
+#UserInfo input {
+    margin: 10px;
+    width: 400px;
+}
+
+#UserInfo button {
+    margin: 40px;
+    padding: 10px;
+}
+
+#UserStuff {
+    width: 65%;
+}
+
+#ProfileDiv #UserPhotos{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#ProfileDiv #UserAlbums {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+#ProfileDiv #UserPosts {
+    max-height: 300px;
+    overflow-y: scroll;
+}

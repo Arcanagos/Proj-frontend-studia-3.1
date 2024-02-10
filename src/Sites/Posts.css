@@ -1,0 +1,22 @@
+#PostsDiv {
+    font-family: Helvetica, Arial, sans-serif;
+}
+#PostsDiv button{
+    margin-left: auto;
+    display: block;
+}
+.posts{
+    text-align: left;
+    margin: 40px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.comments {
+    text-align: left;
+    margin: 10px;
+    margin-left: 60px;
+}
+.posts h3{
+    text-align: left;
+    margin: 40px;
+}
